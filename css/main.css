@@ -33,6 +33,12 @@ body {
 body.dark {
   background-color: #161618;
 }
+.style{
+  font-family: serif!important;
+  margin-left:20px;
+  margin-bottom:0;
+  margin-top:0;
+}
 
 * {
   font-family: 'ObjectSans', Object Sans, Helvetica, sans-serif;
@@ -364,12 +370,30 @@ section.grey {
   background-image: url('../img/dog.jpg');
   background-repeat: no-repeat;
   background-size: contain;
-  height: 0;
+  height: 150px;
   width: 100%;
   padding-top: 80.3%;
+  margin-top:30px;
+  border-radius: 10%;
+}
+.photoText{
+  text-align: center;
+}
+.img-about-2 {
+  background-image: url('../img/462.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 450px;
+  width: 550px;
+  transform: rotate(-5deg);
+}
+.smaller{
+  font-size: 30px;
 }
 
-
+.footerText{
+  margin-top:120px;
+}
 
 @media only screen and (min-width: 540px) {
 
@@ -505,7 +529,7 @@ section.grey {
  
 
   .footer {
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 40px;
   }
 
@@ -581,7 +605,7 @@ section.grey {
 
   .footer {
     margin-top: 20px;
-    padding-top: 120px;
+    padding-top: 30px;
     padding-bottom: 80px;
   }
 
