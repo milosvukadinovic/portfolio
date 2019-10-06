@@ -17,6 +17,9 @@
   section{
     padding:0!important;
   }
+  .makeSmaller{
+    margin-bottom:0!important;
+  }
 }
 
 html,
