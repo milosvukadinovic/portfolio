@@ -10,7 +10,13 @@
 }
 }
 @media only screen and (max-width: 940px) {
-
+  .img-about-2{
+    height: 300px!important;
+    width: 100%!important;
+  }
+  section{
+    padding:0!important;
+  }
 }
 
 html,
