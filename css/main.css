@@ -9,6 +9,47 @@
   margin-top:0px!important;
 }
 }
+
+.ss1{
+  background-image: url(../img/Screenshot_1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+}
+.ss2{
+  background-image: url('../img/Screenshot_2.jpg');
+  background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+}
+.ss3{
+  background-image: url('../img/Screenshot_3.jpg');
+  background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+}
+.ss4{
+  background-image: url('../img/Screenshot_4.jpg');
+  background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+}
+.ss5{
+  background-image: url('../img/Screenshot_5.jpg');
+  background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+}
 @media only screen and (max-width: 940px) {
   .img-about-2{
     height: 300px!important;
