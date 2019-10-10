@@ -2,6 +2,8 @@
 
 Personal site.
 
+![Alt text](/img/ss.jpg)
+
 ## [Live](milosvukadinovic.xyz)
 
 
