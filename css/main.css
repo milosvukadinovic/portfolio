@@ -9,6 +9,10 @@
   margin-top:0px!important;
 }
 }
+.laki{
+  text-align:center;
+  font-size:2rem!important;
+}
 
 .ss1{
   background-image: url(../img/Screenshot_1.jpg);
@@ -63,6 +67,35 @@
   }
 }
 
+@media screen and (min-width: 720px) and (max-width: 800px) { 
+  .makeSmallerText{
+    padding-top:70px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .makeSmaller{
+    width:100%;
+    text-align:center;
+  }
+  .makeSmallerText{
+    width:80%;
+    text-align:center;
+    margin: auto!important;
+    width: 80%!important;
+    float: none !important;;
+  }
+  .ss1 , .ss2, .ss3, .ss4, .ss5{
+    margin:auto;
+    width:80%!important;
+  }
+  .footer{
+    margin-top:20px!important;
+  }
+  .smaller{
+    display:none;
+  }
+}
 html,
 body {
   height: 100%;
@@ -463,7 +496,7 @@ section.grey {
   }
 
   p.x-large {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.4;
   }
 
@@ -499,7 +532,6 @@ section.grey {
 
 @media only screen and (min-width: 720px) {
 
-  
 
   h1 {
     font-size: 2.3rem;
@@ -513,12 +545,12 @@ section.grey {
   }
 
   p {
-    font-size: 2.25rem;
+    font-size: 1.25rem;
     line-height: 1.6;
   }
 
   p.x-large {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.4;
   }
 
@@ -600,17 +632,17 @@ section.grey {
   }
 
   p {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     line-height: 1.6;
   }
 
   p.x-large {
-    font-size: 5rem;
+    font-size: 3rem;
     line-height: 1.4;
   }
 
   p.label {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.3;
   }
 
@@ -625,7 +657,7 @@ section.grey {
   }
 
   li {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.5;
   }
 
