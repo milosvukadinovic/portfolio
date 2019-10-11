@@ -111,6 +111,11 @@
     display:none;
   }
 }
+@media only screen and (max-width: 500px) {
+  .ss1 , .ss2, .ss3, .ss4, .ss5{
+    height:170px!important;
+  }
+}
 .Bigger{
   font-size:1.5rem;
 }
