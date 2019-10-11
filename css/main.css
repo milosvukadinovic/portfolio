@@ -115,6 +115,12 @@
   .ss1 , .ss2, .ss3, .ss4, .ss5{
     height:170px!important;
   }
+  .img-about-2{
+    height: 180px;
+  }
+  #friends{
+    height:200px!important;
+  }
 }
 .Bigger{
   font-size:1.5rem;
