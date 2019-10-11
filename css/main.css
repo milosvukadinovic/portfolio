@@ -93,6 +93,7 @@
   .ss1 , .ss2, .ss3, .ss4, .ss5{
     margin:auto;
     width:80%!important;
+    height:300px;
   }
   .footer{
     margin-top:20px!important;
