@@ -8,111 +8,167 @@
   <meta property="og:description" content="Milos Vukadinovic is a full-stack web developer.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Milos Vukadinovic">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/simple-grid.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="icon" href="img/logo.png">
   <title>Milos Vukadinovic | Portfolio</title>
   <meta name="description" content="Milos Vukadinovic is a full-stack web developer.">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+  
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+  
+        // Store hash
+        var hash = this.hash;
+  
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+  
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
 </head>
 
 <body class="dark">
-  <section class="navigation">
-    <div class="container">
-      <div class="row">
-        <div class="col-3 col-4-sm">
-          <li><a href="./index.html" title="Home" class="type-white">Milos Vukadinovic</a></li>
-        </div>
-        <div class="col-9 col-8-sm align-r">
-          <li><a href="./about.html" title="Work" class="type-white">About</a></li>
-          <li><a href="./contact.html" title="Hello" class="type-white">Contact</a></li>
-        </div>
-      </div>
+  
+  <section id="navBarContainer">
+    <div id="navBar">
+      <a href="#navBarContainer" class="navLinks">
+        HOME
+      </a>
+      <a href="#Portfolio" class="navLinks">
+          PORTFOLIO
+        </a>
+        <a href="#" class="navLinks">
+            ABOUT
+          </a>
+          <a href="#" class="navLinks">
+              CONTACT
+            </a>
     </div>
-  </section>
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <p class="x-large type-white">Great to have you here!</p>
-          <p class="heavy type-white">My name is Milos and I am a full-stack developer.</p>
-          <p class="heavy type-white style">
-           </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-8">
-          <p class="type-white">Some of my projects: </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="container">
-      <div class="row">
-        
-        <div class="col-4 col-10-sm makeSmallerText">
-            <p class="type-white footerText">Social Network </p>
-            <p class="smaller type-white label">Ruby on Rails <br/>PostgreSQL</p>
-            <a class="Bigger type-white label" href="https://funlook.herokuapp.com/" >Live</a><br/><a class="Bigger type-white footerText" href="https://github.com/milosvukadinovic/funlook-social-network">GitHub</a>
-        </div>
-        <div class="col-8 col-10-sm makeSmaller">
-          <div class="ss1"></div>
-  </div>
-      </div>
-    </div>
-  </section>
-  <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-4 col-10-sm makeSmallerText">
-                <p class="type-white footerText">Design Project </p>
-                <p class="smaller type-white label">HTML <br/> CSS</p>
-                <a class="Bigger type-white label" href="https://design-technology-milos.herokuapp.com/" >Live</a><br/><a class="Bigger type-white footerText" href="https://github.com/milosvukadinovic/Design-Project">GitHub</a>
-            </div>
-            <div class="col-8 col-10-sm makeSmaller">
-                    <div class="ss4"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-            <div class="container">
-              <div class="row">
-                
-                <div class="col-4 col-10-sm makeSmallerText">
-                    <p class="type-white footerText ">Design Project </p>
-                    <p class="smaller type-white label">HTML <br/>CSS</p>
-                    <a class="Bigger type-white label" href="https://barn-milos.herokuapp.com/" >Live</a><br/><a class="Bigger type-white footerText" href="https://github.com/milosvukadinovic/Design-Barn">GitHub</a>
-                </div>
-                <div class="col-8 col-10-sm makeSmaller">
-                  <div class="ss5"></div>
-          </div>
-              </div>
-            </div>
-          </section>
-      
-                  <div>
-                      <p class="smaller type-white label laki">
 
-                          Check out more projects at <a href="https://github.com/milosvukadinovic" title="Github" target="_blank" class="type-white">Github</a>
-                      </p>
-                  </div>
-  <section class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <p class="label type-white">Learn more</p>
-          <p><a href="./about.html" title="About" class="heavy type-white">About me</a></p>
-        </div>
-        <div class="col-4">
-          <p class="label type-white">If you want to</p>
-          <p><a href="./contact.html" title="Hello" class="heavy type-white">Contact me</a></p>
-        </div>
-      </div>
-    </div>
   </section>
+
+  <section id="Home">
+    <div id="Name">
+      <h1>
+        <span class="spanWhite">MY NAME IS</span>
+        <span class="spanBlue">MILOS</span>
+        <span class="spanWhite">AND I'M A </span>
+        <span class="spanBlue">FULL-STACK</span>
+        <span class="spanBlue">DEVELOPER.</span>
+            
+      </h1>
+      <h2>
+        <span class="spanLow">
+            RUBY, RAILS, JAVASCRIPT, REACT, REDUX.
+        </span>
+          
+      </h2>
+
+    </div>
+    <div id="homeLinks">
+      <a href="#">
+        <img class="homeLink" alt="Linkedin Logo" data-type="image" itemprop="image" src="https://static.wixstatic.com/media/a9ccd8_18df87206175490e9a229135b8ce71d1~mv2.png/v1/fill/w_55,h_55,al_c,q_80,usm_0.66_1.00_0.01/a9ccd8_18df87206175490e9a229135b8ce71d1~mv2.webp" data-src="" style="width: 5vw; height: 5vw; object-fit: cover;">
+      </a>
+      <br>
+      <a href="#">
+        <img  class="homeLink" alt="Gmail Logo" data-type="image" itemprop="image" src="https://static.wixstatic.com/media/a9ccd8_25a3411189744ab08663bc9839b911e4~mv2.png/v1/fill/w_55,h_55,al_c,q_80,usm_0.66_1.00_0.01/a9ccd8_25a3411189744ab08663bc9839b911e4~mv2.webp" data-src="" style="width: 5vw; height: 5vw; object-fit: cover;">
+      </a><br>
+      <a href="#">
+        <img class="homeLink" alt="Github Logo" data-type="image" itemprop="image" src="https://static.wixstatic.com/media/a9ccd8_e55bc3549a924f0cbe4bb9bf731633b9~mv2.png/v1/fill/w_55,h_55,al_c,q_80,usm_0.66_1.00_0.01/a9ccd8_e55bc3549a924f0cbe4bb9bf731633b9~mv2.webp" data-src="" style="width: 5vw; height: 5vw; object-fit: cover;">
+      </a>
+
+    </div>
+
+  </section>
+  
+  <section  id="Portfolio">
+    <div id="PF">
+      <h1>
+        <span class="spanBlue">01 </span>
+        <span class="spanWhite">PORTFOLIO</span>
+      </h1>
+    </div>
+
+    <div id="Projects">
+      <div class="projectContainer">
+        <img class="projectImage" src="img/Screenshot_1.jpg">
+        <span class="dominText"> FACELOOK: <br>
+        <span class="blueText"> A SOCIAL NETWORK PROJECT</span></span>
+        <span class="projectSpan">
+            RAILS, POSTGRESQL,BOOTSTRAP
+        </span>
+        <span class="projectSpan">
+          <a href="#" class="projectSpanA">
+            GITHUB</a>
+          |
+          <a href="#" class="projectSpanA">
+            LIVE
+          </a>
+        </span>
+      </div>
+      <div class="projectContainer">
+        <img class="projectImage" src="img/Screenshot_1.jpg">
+        <span class="dominText"> FACELOOK: <br>
+        <span class="blueText"> A SOCIAL NETWORK PROJECT</span></span>
+        <span class="projectSpan">
+            RAILS, POSTGRESQL,BOOTSTRAP
+        </span>
+        <span class="projectSpan">
+          <a href="#" class="projectSpanA">
+            GITHUB</a>
+          |
+          <a href="#" class="projectSpanA">
+            LIVE
+          </a>
+        </span>
+      </div>
+      <div class="projectContainer">
+        <img class="projectImage" src="img/Screenshot_1.jpg">
+        <span class="dominText"> FACELOOK: <br>
+        <span class="blueText"> A SOCIAL NETWORK PROJECT</span></span>
+        <span class="projectSpan">
+            RAILS, POSTGRESQL,BOOTSTRAP
+        </span>
+        <span class="projectSpan">
+          <a href="#" class="projectSpanA">
+            GITHUB</a>
+          |
+          <a href="#" class="projectSpanA">
+            LIVE
+          </a>
+        </span>
+      </div>
+      <div class="projectContainer">
+        <img class="projectImage" src="img/Screenshot_1.jpg">
+        <span class="dominText"> FACELOOK: <br>
+        <span class="blueText"> A SOCIAL NETWORK PROJECT</span></span>
+        <span class="projectSpan">
+            RAILS, POSTGRESQL,BOOTSTRAP
+        </span>
+        <span class="projectSpan">
+          <a href="#" class="projectSpanA">
+            GITHUB</a>
+          |
+          <a href="#" class="projectSpanA">
+            LIVE
+          </a>
+        </span>
+      </div>
+
+  </section>
+  
 </body>
