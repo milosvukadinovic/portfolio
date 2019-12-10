@@ -86,6 +86,7 @@ h1{
 }
 .projectImage{
   width: 100%;
+  height: 18vw;
 }
 .projectSpan{
   width:60%;
@@ -119,4 +120,116 @@ h1{
 }
 .blueText{
   color: #2B49A1;
+}
+.checkOut{
+  margin-top:40px;
+
+}
+
+#About{
+  margin-top:80px;
+  float:left;
+  width:100%;
+  text-align: center;
+}
+.projectSpanZ{
+  padding-left:2px;
+  width:60%;
+  line-height: normal;
+  color: rgb(230, 233, 243);
+  letter-spacing: 0.18em;
+  font-weight: 100!important;
+  font: normal normal normal 1.9vw avenir-lt-w01_35-light1475496,sans-serif;
+}
+.aboutDiv{
+  text-align: center;
+  margin-top:50px;
+}
+.aboutSpan{
+  text-align:left;
+  display: inline-block;
+}
+.pic{
+  height:25vw;
+  width: 25vw;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left:1%;
+  vertical-align: top;
+}
+
+#Contact{
+  margin-top:80px;
+  float:left;
+  width:100%;
+  text-align: center;
+}
+.formContainer{
+  width:80%;
+  height:50vw;
+  background:#2B49A1;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: left;
+  margin-bottom:5vw;
+}
+.contactSpan{
+  margin-top:12vw;
+  margin-left:12vw;
+  line-height: normal;
+  color: rgb(230, 233, 243);
+  font-weight: 900!important;
+  font: normal normal normal 2.5vw avenir-lt-w01_35-light1475496,sans-serif;
+  position:absolute;
+}
+.contactSpanEmail{
+  margin-top:16vw;
+  margin-left:12vw;
+  line-height: normal;
+  color: rgb(230, 233, 243);
+  font-weight: 300!important;
+  font: normal normal normal 1.3vw avenir-lt-w01_35-light1475496,sans-serif;
+  position:absolute;
+  width:20%;
+  letter-spacing: 0.18em;
+}
+
+#contact-form{
+  float:right;
+  margin-top:10vw;
+  margin-right:10vw;
+  width: 30%;
+
+}
+.input{
+  width:80%;
+  height:3vw;
+  margin:0.5vw;
+  font: normal normal normal 1.5vw avenir-lt-w01_35-light1475496,sans-serif;
+}
+.inputLarge{
+  width:80%;
+  height:8vw;
+  margin:0.5vw;
+  font: normal normal normal 1.5vw avenir-lt-w01_35-light1475496,sans-serif;
+  
+}
+.inputButton{
+  width:82%;
+  height:3vw;
+  margin:0.5vw;
+  font: normal normal normal 1.5vw avenir-lt-w01_35-light1475496,sans-serif;
+  background-color:rgba(0, 214, 70, 1);
+  color:white;
+  font-weight: 300!important;
+  border-left: 3px;
+  padding:0;
+  border:none;
+}
+.projectSpanB{
+  line-height: normal;
+  color: rgb(230, 233, 243);
+  letter-spacing: 0.18em;
+  font-weight: 100!important;
+  font: normal normal normal 1.3vw avenir-lt-w01_35-light1475496,sans-serif;
 }
