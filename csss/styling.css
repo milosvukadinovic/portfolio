@@ -71,6 +71,10 @@ h1{
 .homeLink{
   margin-bottom:40px;
 }
+.homeLink:hover{
+  opacity: 70%;
+}
+
 #Portfolio{
   padding-top: 100px;
   float:left;
