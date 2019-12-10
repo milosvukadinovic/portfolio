@@ -28,6 +28,11 @@
                 // generate the contact number value
                 this.contact_number.value = Math.random() * 100000 | 0;
                 emailjs.sendForm('default_service', 'template_qXtBJ1ZG', this);
+                document.getElementById('contact-form').reset();
+                document.getElementById('contact-form').style.display = "none";
+                document.getElementById('contactSpan').style.display = "none";
+                document.getElementById('contactSpanEmail').style.display = "none";
+                document.getElementById('contactSpanEmailZ').style.display = "inline-block";
             });
         }
     </script>
@@ -57,7 +62,7 @@ $('html, body').animate({
   
   <section id="navBarContainer">
     <div id="navBar">
-      <a href="#navBarContainer" class="navLinks">
+      <a href="#Home" class="navLinks">
         HOME
       </a>
       <a href="#Portfolio" class="navLinks">
@@ -246,17 +251,20 @@ $('html, body').animate({
           </h1>
         </div>
         <div class="formContainer">
-          <span class="contactSpan">
+          <span id="contactSpan">
             CONTACT ME
           </span><br>
-          <span class="contactSpanEmail">
+          <span id="contactSpanEmail">
               IF YOU WISH TO CONTACT ME DO SO WITH THE FOLLOWING FORM OR VIA <a href class="projectSpanB">MILOS.VUKADINOVIC11@GMAIL.COM</a>
           </span>
+          <span id="contactSpanEmailZ">
+            The Message has been sent, thank you. 
+        </span>
           <form id="contact-form">
               <input type="hidden" name="contact_number">
-              <input type="text" class="input" placeholder="Name" name="user_name"><br>
-              <input type="email" class="input" placeholder="Email" name="user_email"><br>
-              <textarea name="message" class="inputLarge" placeholder="Message"></textarea><br>
+              <input required="required" type="text" class="input" placeholder="Name" name="user_name"><br>
+              <input required="required" type="email" class="input" placeholder="Email" name="user_email"><br>
+              <textarea required="required" name="message" class="inputLarge" placeholder="Message"></textarea><br>
               <input type="submit" class="inputButton" value="Send">
           </form>
         </div>

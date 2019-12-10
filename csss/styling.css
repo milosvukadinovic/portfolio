@@ -20,6 +20,8 @@ body{
   margin:0;
   height:80px;
   width:100%;
+  z-index:1;
+  position:fixed;
   
 }
 .navLinks{
@@ -47,7 +49,7 @@ h1{
 }
 #Home{
   margin-left:10%;
-  margin-top:150px;
+  padding-top: 120px;
   float:left;
   
 }
@@ -70,7 +72,7 @@ h1{
   margin-bottom:40px;
 }
 #Portfolio{
-  margin-top:100px;
+  padding-top: 100px;
   float:left;
   width:100%;
   text-align: center;
@@ -127,7 +129,7 @@ h1{
 }
 
 #About{
-  margin-top:80px;
+  padding-top: 80px;
   float:left;
   width:100%;
   text-align: center;
@@ -159,7 +161,7 @@ h1{
 }
 
 #Contact{
-  margin-top:80px;
+  padding-top: 80px;
   float:left;
   width:100%;
   text-align: center;
@@ -173,7 +175,7 @@ h1{
   text-align: left;
   margin-bottom:5vw;
 }
-.contactSpan{
+#contactSpan{
   margin-top:12vw;
   margin-left:12vw;
   line-height: normal;
@@ -182,7 +184,7 @@ h1{
   font: normal normal normal 2.5vw avenir-lt-w01_35-light1475496,sans-serif;
   position:absolute;
 }
-.contactSpanEmail{
+#contactSpanEmail{
   margin-top:16vw;
   margin-left:12vw;
   line-height: normal;
@@ -192,6 +194,17 @@ h1{
   position:absolute;
   width:20%;
   letter-spacing: 0.18em;
+}
+#contactSpanEmailZ{
+  margin-top:16vw;
+  margin-left:15vw;
+  line-height: normal;
+  color: rgb(230, 233, 243);
+  font-weight: 500!important;
+  font: normal normal normal 2vw avenir-lt-w01_35-light1475496,sans-serif;
+  position:absolute;
+  letter-spacing: 0.18em;
+  display:none;
 }
 
 #contact-form{
@@ -225,6 +238,12 @@ h1{
   border-left: 3px;
   padding:0;
   border:none;
+}
+.inputButton:hover{
+  opacity:80%;
+}
+.inputButton:active{
+  background-color:rgb(9, 148, 55);
 }
 .projectSpanB{
   line-height: normal;
