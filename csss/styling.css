@@ -13,7 +13,7 @@ body{
 }
 #navBar{
   float:right;
-  margin-right:100px;
+  margin-right:10vw;
 }
 #navBarContainer{
   background-color:rgb(32, 32, 32);
@@ -29,7 +29,7 @@ body{
   color: #BEC7D5;
   text-decoration:none;
   line-height: 75px;
-  padding-right:20px;
+  padding-right:2vw;
 }
 .navLinks:hover{
   color: #2B49A1;
