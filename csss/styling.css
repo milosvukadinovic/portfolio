@@ -76,7 +76,7 @@ h1{
 }
 
 #Portfolio{
-  padding-top: 100px;
+  padding-top: 18vw;
   float:left;
   width:100%;
   text-align: center;
@@ -133,7 +133,7 @@ h1{
 }
 
 #About{
-  padding-top: 80px;
+  padding-top: 18vw;
   float:left;
   width:100%;
   text-align: center;
@@ -165,7 +165,7 @@ h1{
 }
 
 #Contact{
-  padding-top: 80px;
+  padding-top: 10vw;
   float:left;
   width:100%;
   text-align: center;
